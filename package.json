@@ -1,0 +1,28 @@
+{
+  "name": "ts-object-utils",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "prettier --write src/**/*.{js,ts,jsx,tsx} && tsc",
+    "test": "tsc --noEmit && jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/jest": "^24.0.19",
+    "@typescript-eslint/parser": "^2.4.0",
+    "husky": "^3.0.9",
+    "jest": "^24.9.0",
+    "prettier": "1.18.2",
+    "pretty-quick": "^2.0.0",
+    "typescript": "^3.6.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
