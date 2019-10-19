@@ -1,4 +1,4 @@
-import { MapItem, ObjectMap } from './types/map'
+import { MapItem, ObjectMap } from './types'
 
 const arrayToMap = <T extends MapItem<K>, K extends string>(key: K) => (
   items: T[]
