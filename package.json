@@ -1,5 +1,5 @@
 {
-  "name": "ts-object-utils",
+  "name": "typescript-object-utilities",
   "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",
